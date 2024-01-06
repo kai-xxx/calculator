@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" content="width=media-width">
+    <title>Project Calculator</title>
+    <link rel="shortcut icon" href="./tiu.png">
+    <link rel="stylesheet" href="./calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>The Calculator</h1>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" id="display"  readonly>
+        <div class="buttons">
+          <button onclick="clearDisplay()" style="border: 1px solid #FF83B6" class="sp button"type="button" name="button">AC</button>
+          <button onclick="operate('/')" style="border: 1px solid #FF83B6" class="sp button" type="button" name="button">÷</button>
+          <button onclick="operate('*')" style="border: 1px solid #FF83B6" class="sp button" type="button" name="button">×</button>
+          <button onclick="previous()" style="border: 1px solid #FF83B6" class="sp button" type="button" name="button">DEL</button>
+          <button onclick="displayy('7')" class="button" type="button" name="button">7</button>
+          <button onclick="displayy('8')" class="button" type="button" name="button">8</button>
+          <button onclick="displayy('9')" class="button" type="button" name="button">9</button>
+          <button onclick="operate('-')" style="border: 1px solid #FF83B6" class="sp button" type="button" name="button">-</button>
+          <button onclick="displayy('4')" class="button" type="button" name="button">4</button>
+          <button onclick="displayy('5')" class="button" type="button" name="button">5</button>
+          <button onclick="displayy('6')" class="button" type="button" name="button">6</button>
+          <button onclick="operate('+')" style="border: 1px solid #FF83B6" class="sp button" type="button" name="button">+</button>
+          <button onclick="displayy('1')" class="button" type="button" name="button">1</button>
+          <button onclick="displayy('2')" class="button" type="button" name="button">2</button>
+          <button onclick="displayy('3')" class="button" type="button" name="button">3</button>
+          <button onclick="calculate()" class="equal"type="button" name="button">=</button>
+          <button onclick="displayy('00')" class="button" type="button" name="button">00</button>
+          <button onclick="displayy('0')" class="button" type="button" name="button">0</button>
+          <button onclick="displayy('.')" class="button" type="button" name="button">.</button>
+        </div>
+      </div>
+    </div>
+<p>Eagar Nandi <br> CSE_AIML <br> Techno India University</p>
+
+
+
+<script src="./calculator.js" charset="utf-8"></script>
+  </body>
+</html>
